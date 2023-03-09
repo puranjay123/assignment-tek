@@ -23,4 +23,12 @@ Fetch all records present orders. transaction for products wheather it is presen
 *** Full Outer Join- It is union of both left outer join and right outer join
 Union of all rows present in all tables.
 
+Transactions:
+Database - > Orderers,order details,customer details,product details.
+1) New Sales will be added to as new value to table orders. -> Query this table to get sales order
+2) Insert new sales order into orders table
+3) get newly inseryed sales order id
+4) afte rthis ipdaye order details into order details tables with same order id
+5) select data from both tables to finally commit changes
+
  
